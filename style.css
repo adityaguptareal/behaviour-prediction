@@ -1,0 +1,59 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+.nm-form {
+    width: 50vw;
+    margin: 20vh auto;
+    overflow: hidden;
+    padding-top: 45px;
+    border: 2px solid red;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+        margin: 20px;
+    
+}
+#name{
+    width: 250px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dob-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+#dob-calander{
+    width: 250px;
+    height: 30px;
+
+}
+#submit{
+    border: none;
+    background-color: rgb(80, 80, 255);
+    color: white;
+    padding: 10px 25px;
+    font-family:Roboto;
+    /* font-style: bo;
+ */
+ font-weight: 700;
+ font-size: 18px;
+ margin-top: 30px;
+ border-radius:5px ;
+}
+.labels{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: -42px;
+}
+.dob-label{
+    margin-left: 0px;
+}
+
+
