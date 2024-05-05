@@ -1,13 +1,24 @@
 *{
 margin: 0px;
 padding: 0px;
+font-family: "Montserrat", sans-serif;
+}
+body{
+    background-image: url(/ass/background.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow: hidden;
 }
 .nm-form {
-    width: 50vw;
+    width: 30vw;
     margin: 20vh auto;
     overflow: hidden;
     padding-top: 45px;
-    border: 2px solid red;
+ background-color: rgba(0, 0, 0, 0.662);
+ border: 3px solid white;
+ border-radius: 25px;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -15,6 +26,9 @@ padding: 0px;
 }
 .heading{
         margin: 20px;
+        color: white;
+        text-align: center;
+        font-size: px;
     
 }
 #name{
@@ -23,15 +37,19 @@ padding: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .dob-section{
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 30px;
+    color: white;
+
 }
 #dob-calander{
     width: 250px;
     height: 30px;
+    
 
 }
 #submit{
@@ -39,7 +57,6 @@ padding: 0px;
     background-color: rgb(80, 80, 255);
     color: white;
     padding: 10px 25px;
-    font-family:Roboto;
     /* font-style: bo;
  */
  font-weight: 700;
@@ -50,10 +67,15 @@ padding: 0px;
 .labels{
     font-size: 20px;
     font-weight: 600;
-    margin-left: -42px;
+    margin-left: 0px;
+    color: white;
+
 }
 .dob-label{
     margin-left: 0px;
+    margin-bottom: 10px;
 }
-
+.name-label{
+    margin-bottom: 10px;
+}
 
