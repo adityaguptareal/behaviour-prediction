@@ -1,22 +1,71 @@
+:root{
+    --purple:#7000FF;
+    --white:white;
+}
 *{
 margin: 0px;
 padding: 0px;
 font-family: "Montserrat", sans-serif;
 }
+.logo{
+    color: var(--white);
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+.right{
+    padding-top: 8px;
+}
+.nav-items a{
+    text-decoration: none;
+    color: var(--white);
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 23px;
+}
+.hero-section{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-heading{
+    font-family: "Montserrat", sans-serif;
+    font-weight:bold;
+    color: var(--white);
+    font-size: 30px;
+    background-color: var(--purple);
+    border-radius: 40px;
+    padding: 10px 25px 10px 25px;
+}
+.subheading{
+    font-family: "Montserrat", sans-serif;
+    font-weight:bold;
+    color: var(--white);
+    max-width: 700px;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 30px;
+}
+nav{
+    background-color:var(--purple) ;
+    display:flex;
+    justify-content: space-around;
+    padding:14px;
+}
 body{
-    background-image: url(/ass/background.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    overflow: hidden;
+   background-color: rgb(27, 27, 27);
+   /* overflow-x: hidden; */
+
 }
 .nm-form {
-    width: 30vw;
-    margin: 20vh auto;
+    width: 323px;
+    margin: 45px auto;
     overflow: hidden;
-    padding-top: 45px;
- background-color: rgba(0, 0, 0, 0.662);
+    padding-top: 20px;
  border: 3px solid white;
  border-radius: 25px;
     flex-direction: column;
@@ -54,7 +103,7 @@ body{
 }
 #submit{
     border: none;
-    background-color: rgb(80, 80, 255);
+    background-color: var(--purple);
     color: white;
     padding: 10px 25px;
     /* font-style: bo;
@@ -62,6 +111,7 @@ body{
  font-weight: 700;
  font-size: 18px;
  margin-top: 30px;
+ margin-bottom: 20px;
  border-radius:5px ;
 }
 .labels{
@@ -78,4 +128,254 @@ body{
 .name-label{
     margin-bottom: 10px;
 }
+.friend {
+    display: block;
+    position: absolute;
+    right: 0;
+    scale: 1;
+    top: 112px;
+}
+.lens {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    right: 266px;
+    top: 85px;
+}
+.knowledge{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 170px;
+    /* scale: 0.7; */
+}
+.love-emoji {
+    display: block;
+    position: absolute;
+    left: 258px;
+    top: 408px;
+}
+.lens-bottom {
+    display: block;
+    position: absolute;
+    bottom: -50px;
+    left: -69px;
+}
+input{
+    font-size: 18px;
+    font-weight: 300;
+    /* border: none; */
+    /* padding: 0px 10px; */
+}
+.report{
+    background-color: var(--white);
+    font-size: 18px;
+    border-radius: 10px;
+    width: 75vw;
+    margin: 30px auto 30px auto
+}
+.report-heading{
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+    font-size: 23px;
+}
+.report-txt-heading{
+padding-top: 40px;
+padding-bottom: 20px;
+font-weight: bold;
+}
+.report-content {
+    font-size: 16px; /* Adjust font size for better readability */
+    line-height: 1.5; /* Increase line-height for spacing */
+    padding: 20px; /* Add padding for better separation from borders */
+  }
 
+  /* Style for paragraphs within the report content */
+  .report-para {
+    margin-bottom: 1.5em; /* Add space between paragraphs */
+  }
+.glow-for-report{
+    position: absolute;
+    mix-blend-mode: screen;
+    opacity: 0.7;
+    z-index: -1;
+
+}
+.glow5{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    z-index: -1;
+}
+
+
+.report-content {
+    line-height: 1.5; /* Adjust line height for readability */
+  }
+
+@media screen and (max-width:1025px) {
+    .friend {
+        display: block;
+        position: absolute;
+        right: 0;
+        scale: 0.8;
+        top: 293px;
+    }
+    .lens {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        right: 64px;
+        top: 85px;
+    }
+    .love-emoji {
+        display: block;
+        position: absolute;
+        left: 178px;
+        top: 408px;
+    }
+    .knowledge {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 91px;
+        height: 123px;
+        width: 100px;
+    }
+}
+
+/* Tablet */
+
+@media screen and (max-width:769px){
+    .love-emoji {
+        display: block;
+        position: absolute;
+        left: 128px;
+        top: 582px;
+    }
+    .lens {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        right: 11px;
+        top: 85px;
+    }
+}
+@media screen and (max-width:426px){
+    .nav-items {
+        display: block;
+        text-align: center;
+        list-style: none;
+        display: none;
+    }
+    nav {
+        background-color: var(--purple);
+        display: flex;
+        justify-content: center;
+        padding: 14px;
+    }
+    .hero-heading {
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        color: var(--white);
+        font-size: 22px;
+        background-color: var(--purple);
+        border-radius: 40px;
+        padding: 10px 25px 10px 25px;
+    }
+    .subheading {
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        color: var(--white);
+        max-width: 700px;
+        text-align: center;
+        font-size: 25px;
+        margin-top: 23px;
+    }
+    .knowledge {
+        display: block;
+        position: absolute;
+        left: -5px;
+        top: 71px;
+        height: 95px;
+        width: 76px;
+    }
+    .lens {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        right: 0px;
+        bottom: 0px;
+    }
+    .friend {
+        display: block;
+        position: absolute;
+        right: -48px;
+        scale: 0.5;
+        top: 202px;
+    }
+    .love-emoji {
+        display: block;
+        position: absolute;
+        left: 0px;
+        top: 524px;
+        height: 120px;
+        width: 120px;
+    }
+}
+@media screen and (max-width:376px){
+    .friend {
+        display: block;
+        position: absolute;
+        right: -72px;
+        scale: 0.4;
+        top: 202px;
+    }
+
+}
+@media screen and (max-width:320px){
+.hero-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: var(--white);
+    font-size: 20px;
+    background-color: var(--purple);
+    border-radius: 40px;
+    padding: 10px 25px 10px 25px;
+}
+nav {
+    background-color: var(--purple);
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.hero-section {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.friend {
+    display: block;
+    position: absolute;
+    right: -110px;
+    scale: 0.4;
+    top: 224px;
+}
+.container{
+    width: 90vw;
+    margin: auto;
+}
+.love-emoji {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 564px;
+    height: 120px;
+    width: 120px;
+}
+}
