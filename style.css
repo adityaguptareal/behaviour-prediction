@@ -6,6 +6,7 @@
 margin: 0px;
 padding: 0px;
 font-family: "Montserrat", sans-serif;
+overflow-x: hidden;
 }
 .logo{
     color: var(--white);
@@ -58,7 +59,7 @@ nav{
 }
 body{
    background-color: rgb(27, 27, 27);
-   /* overflow-x: hidden; */
+   overflow-x: hidden;
 
 }
 .nm-form {
@@ -291,6 +292,12 @@ input{
         justify-content: center;
         padding: 14px;
     }
+    .glow-for-report {
+        position: absolute;
+        mix-blend-mode: screen;
+        opacity: 0.7;
+        z-index: -1;
+        display: none;}
     .hero-heading {
         font-family: "Montserrat", sans-serif;
         font-weight: bold;
