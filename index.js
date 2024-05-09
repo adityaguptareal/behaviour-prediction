@@ -5,13 +5,17 @@ function numerology(refersh) {
 
     // Code Changes
      let check_user_name=user_name.trim()
-     if (check_user_name===""|| dob===""){
-      alert("Please Fill Your Name and Date of Birth")
-     } 
-     else{
-      
-     }
-    
+     if (check_user_name === "" || dob === "") {
+      if (check_user_name === "") {
+        document.getElementById("name").focus();
+        alert("Please Enter Your Name and Date of Birth")
+      } else {
+        document.getElementById("dob-calander").focus();
+        alert("Please Enter Your Name and Date of Birth")
+      }
+      return; 
+    }
+    // else{
 
 
     let numerology_number = parseInt(dob[8]) + parseInt(dob[9])
