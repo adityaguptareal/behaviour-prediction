@@ -2,6 +2,18 @@ function numerology(refersh) {
     refersh.preventDefault();
     let user_name = document.getElementById("name").value;
     let dob = document.getElementById("dob-calander").value;
+
+    // Code Changes
+     let check_user_name=user_name.trim()
+     if (check_user_name===""|| dob===""){
+      alert("Please Fill Your Name and Date of Birth")
+     } 
+     else{
+      
+     }
+    
+
+
     let numerology_number = parseInt(dob[8]) + parseInt(dob[9])
     if (numerology_number == 1) {
       console.log(user_name)
