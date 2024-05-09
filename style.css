@@ -80,7 +80,10 @@ body{
         font-size: px;
     
 }
+
 #name{
+    font-weight: 500;
+    padding: 5px 10px;
     width: 250px;
     height: 30px;
     display: flex;
@@ -89,6 +92,8 @@ body{
     
 }
 .dob-section{
+    font-weight: 500;
+    padding: 5px 10px;
     display: flex;
     flex-direction: column;
     margin-top: 30px;
@@ -174,16 +179,17 @@ input{
     width: 75vw;
     margin: 30px auto 30px auto
 }
+
 .report-heading{
     display: flex;
     gap: 23px;
     justify-content: center;
     font-size: 23px;
 }
-.report-txt-heading{
-padding-top: 40px;
-padding-bottom: 20px;
-font-weight: bold;
+.report-txt-heading {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-weight: bold;
 }
 .report-content {
     font-size: 16px; /* Adjust font size for better readability */
@@ -193,7 +199,10 @@ font-weight: bold;
 
   /* Style for paragraphs within the report content */
   .report-para {
-    margin-bottom: 1.5em; /* Add space between paragraphs */
+    margin-bottom: 18px; /* Add space between paragraphs */
+    /* margin-top: 10px; Add space between paragraphs */
+    font-size: 18px;
+    font-weight: 500;
   }
 .glow-for-report{
     position: absolute;
@@ -213,7 +222,10 @@ font-weight: bold;
 .report-content {
     line-height: 1.5; /* Adjust line height for readability */
   }
+.user_report{
+    padding-top: 40px;
 
+}
 @media screen and (max-width:1025px) {
     .friend {
         display: block;
@@ -261,13 +273,14 @@ font-weight: bold;
         right: 11px;
         top: 85px;
     }
+    
 }
 @media screen and (max-width:426px){
     .nav-items {
-        display: block;
-        text-align: center;
+        display: flex;
         list-style: none;
-        display: none;
+        font-size: 14px;
+        gap: 23px;
     }
     nav {
         background-color: var(--purple);
@@ -279,11 +292,19 @@ font-weight: bold;
         font-family: "Montserrat", sans-serif;
         font-weight: bold;
         color: var(--white);
-        font-size: 22px;
+        font-size: 21px;
         background-color: var(--purple);
         border-radius: 40px;
         padding: 10px 25px 10px 25px;
+text-align : center;
     }
+
+    .report-heading {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        font-size: 23px;}
+
     .subheading {
         font-family: "Montserrat", sans-serif;
         font-weight: bold;
@@ -378,4 +399,9 @@ nav {
     height: 120px;
     width: 120px;
 }
+}
+@media screen and (max-width:916px){
+    .right{
+        display: none;
+    }
 }
