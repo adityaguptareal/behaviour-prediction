@@ -273,6 +273,9 @@ input{
         right: 11px;
         top: 85px;
     }
+    .lens-bottom {
+        display: none;
+    }
     
 }
 @media screen and (max-width:426px){
