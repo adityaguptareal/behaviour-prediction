@@ -265,6 +265,13 @@ input {
     height: 123px;
     width: 100px;
   }
+  .report {
+    background-color: var(--white);
+    font-size: 18px;
+    border-radius: 10px;
+    width: 75vw;
+    margin: 10px auto 10px auto;
+  }
 }
 
 /* Tablet */
