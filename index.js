@@ -1,27 +1,34 @@
 function numerology(refersh) {
-    refersh.preventDefault();
-    let user_name = document.getElementById("name").value;
-    let dob = document.getElementById("dob-calander").value;
+  refersh.preventDefault();
+  let user_name = document.getElementById("name").value;
+  let dob = document.getElementById("dob-calander").value;
 
-    // Code Changes
-     let check_user_name=user_name.trim()
-     if (check_user_name === "" || dob === "") {
-      if (check_user_name === "") {
-        document.getElementById("name").focus();
-        alert("Please Enter Your Name and Date of Birth")
-      } else {
-        document.getElementById("dob-calander").focus();
-        alert("Please Enter Your Name and Date of Birth")
-      }
-      return; 
+  // Code Changes
+  let check_user_name = user_name.trim()
+  if (check_user_name === "" || dob === "") {
+    if (check_user_name === "") {
+      document.getElementById("name").focus();
+      alert("Please Enter Your Name and Date of Birth")
+    } else {
+      document.getElementById("dob-calander").focus();
+      alert("Please Enter Your Name and Date of Birth")
     }
-    // else{
+    return;
+  }
+  // else{
+  let numerology_number = parseInt(dob[8]) + parseInt(dob[9])
+  if (numerology_number.toString().length == 1) {
+    numerology_number = numerology_number
+  }
+  else if (numerology_number.toString().length == 2) {
+    let arr = Array.from(numerology_number.toString()).reduce((a, b) => (parseInt(a) + parseInt(b)))
+    numerology_number = arr
+  }
 
 
-    let numerology_number = parseInt(dob[8]) + parseInt(dob[9])
-    if (numerology_number == 1) {
-      console.log(user_name)
-      let report_content = `<!DOCTYPE html>
+  if (numerology_number == 1) {
+    console.log(user_name)
+    let report_content = `<!DOCTYPE html>
       <html lang="en">
       
       <head>
@@ -135,11 +142,11 @@ function numerology(refersh) {
         </div>
         
           `
-      document.body.innerHTML = report_content;
+    document.body.innerHTML = report_content;
 
-    }
-    else if (numerology_number == 2) {
-      let report_content = `<!DOCTYPE html>
+  }
+  else if (numerology_number == 2) {
+    let report_content = `<!DOCTYPE html>
       <html lang="en">
       
       <head>
@@ -204,11 +211,11 @@ function numerology(refersh) {
           </div>
         </div>
         `;
-      document.body.innerHTML = report_content;
+    document.body.innerHTML = report_content;
 
-    }
-    else if (numerology_number == 3) {
- let report_content =`<!DOCTYPE html>
+  }
+  else if (numerology_number == 3) {
+    let report_content = `<!DOCTYPE html>
  <html lang="en">
  
  <head>
@@ -270,9 +277,9 @@ function numerology(refersh) {
  </div>
  `
     document.body.innerHTML = report_content;
-    }
-    else if (numerology_number == 4) {
- let report_content =`<!DOCTYPE html>
+  }
+  else if (numerology_number == 4) {
+    let report_content = `<!DOCTYPE html>
  <html lang="en">
  
  <head>
@@ -334,10 +341,10 @@ function numerology(refersh) {
  </div>
  `
     document.body.innerHTML = report_content;
-    }
-    
-    else if (numerology_number == 5) {
- let report_content =`<!DOCTYPE html>
+  }
+
+  else if (numerology_number == 5) {
+    let report_content = `<!DOCTYPE html>
  <html lang="en">
  
  <head>
@@ -406,9 +413,9 @@ function numerology(refersh) {
  </div>
  `
     document.body.innerHTML = report_content;
-    }
-    else if (numerology_number == 6) {
- let report_content =`<!DOCTYPE html>
+  }
+  else if (numerology_number == 6) {
+    let report_content = `<!DOCTYPE html>
  <html lang="en">
  
  <head>
@@ -468,9 +475,9 @@ function numerology(refersh) {
  </div>
  </div>`
     document.body.innerHTML = report_content;
-    }
-    else if (numerology_number == 7) {
- let report_content =`<!DOCTYPE html>
+  }
+  else if (numerology_number == 7) {
+    let report_content = `<!DOCTYPE html>
  <html lang="en">
  
  <head>
@@ -542,10 +549,10 @@ function numerology(refersh) {
  </div>
  </div>  `
     document.body.innerHTML = report_content;
-    }
+  }
 
-    else if (numerology_number == 8) {
- let report_content =`<!DOCTYPE html>
+  else if (numerology_number == 8) {
+    let report_content = `<!DOCTYPE html>
  <html lang="en">
  
  <head>
@@ -617,9 +624,9 @@ function numerology(refersh) {
  <h2 class="report-txt-heading"> Spiritual Exploration 🧘‍♀️🕯️</h2>
  <div class="report-para">You try to overcome the ongoing internal dialogue in Your minds and try to learn the occult sciences, religion, philosophy, meditation, etc. 🔮</div>`
     document.body.innerHTML = report_content;
-    }
-else if (numerology_number == 9) {
- let report_content =`<!DOCTYPE html>
+  }
+  else if (numerology_number == 9) {
+    let report_content = `<!DOCTYPE html>
  <html lang="en">
  
  <head>
@@ -681,10 +688,10 @@ else if (numerology_number == 9) {
  </div>
  `
     document.body.innerHTML = report_content;
-    }
+  }
 
-   else{
+  else {
 
-   }
+  }
 }
-  document.getElementById("submit").addEventListener("click", numerology)
+document.getElementById("submit").addEventListener("click", numerology)
