@@ -44,7 +44,7 @@ function numerology(refersh) {
             <li><a href="">Home</a></li>
             <li><a href="">How to Use</a></li>
             <li><a href="">Blog</a></li>
-            <li><a href="">Privay POlicy</a></li>
+            <li><a href="">Privay Policy</a></li>
             <li><a href="">Terms & Condition</a></li>
             </ul>
           </div>
@@ -162,7 +162,7 @@ function numerology(refersh) {
             <li><a href="">Home</a></li>
             <li><a href="">How to Use</a></li>
             <li><a href="">Blog</a></li>
-            <li><a href="">Privay POlicy</a></li>
+            <li><a href="">Privay Policy</a></li>
             <li><a href="">Terms & Condition</a></li>
             </ul>
           </div>
@@ -231,7 +231,7 @@ function numerology(refersh) {
        <li><a href="">Home</a></li>
        <li><a href="">How to Use</a></li>
        <li><a href="">Blog</a></li>
-       <li><a href="">Privay POlicy</a></li>
+       <li><a href="">Privay Policy</a></li>
        <li><a href="">Terms & Condition</a></li>
        </ul>
      </div>
@@ -295,7 +295,7 @@ function numerology(refersh) {
        <li><a href="">Home</a></li>
        <li><a href="">How to Use</a></li>
        <li><a href="">Blog</a></li>
-       <li><a href="">Privay POlicy</a></li>
+       <li><a href="">Privay Policy</a></li>
        <li><a href="">Terms & Condition</a></li>
        </ul>
      </div>
@@ -360,7 +360,7 @@ function numerology(refersh) {
        <li><a href="">Home</a></li>
        <li><a href="">How to Use</a></li>
        <li><a href="">Blog</a></li>
-       <li><a href="">Privay POlicy</a></li>
+       <li><a href="">Privay Policy</a></li>
        <li><a href="">Terms & Condition</a></li>
        </ul>
      </div>
@@ -431,7 +431,7 @@ function numerology(refersh) {
        <li><a href="">Home</a></li>
        <li><a href="">How to Use</a></li>
        <li><a href="">Blog</a></li>
-       <li><a href="">Privay POlicy</a></li>
+       <li><a href="">Privay Policy</a></li>
        <li><a href="">Terms & Condition</a></li>
        </ul>
      </div>
@@ -493,7 +493,7 @@ function numerology(refersh) {
          <li><a href="">Home</a></li>
          <li><a href="">How to Use</a></li>
          <li><a href="">Blog</a></li>
-         <li><a href="">Privay POlicy</a></li>
+         <li><a href="">Privay Policy</a></li>
          <li><a href="">Terms & Condition</a></li>
        </ul>
      </div>
@@ -568,7 +568,7 @@ function numerology(refersh) {
        <li><a href="">Home</a></li>
        <li><a href="">How to Use</a></li>
        <li><a href="">Blog</a></li>
-       <li><a href="">Privay POlicy</a></li>
+       <li><a href="">Privay Policy</a></li>
        <li><a href="">Terms & Condition</a></li>
        </ul>
      </div>
@@ -642,7 +642,7 @@ else if (numerology_number == 9) {
        <li><a href="">Home</a></li>
        <li><a href="">How to Use</a></li>
        <li><a href="">Blog</a></li>
-       <li><a href="">Privay POlicy</a></li>
+       <li><a href="">Privay Policy</a></li>
        <li><a href="">Terms & Condition</a></li>
        </ul>
      </div>
