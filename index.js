@@ -38,7 +38,7 @@ function numerology(refersh) {
       
       <body>
         <nav>
-          <div class="logo left">SunSignify</div>
+          <div class="logo left">Behaviour Pridiction</div>
           <div class="right">
             <ul class="nav-items">
             <li><a href="">Home</a></li>
@@ -156,7 +156,7 @@ function numerology(refersh) {
       
       <body>
         <nav>
-          <div class="logo left">SunSignify</div>
+          <div class="logo left">Behaviour Pridiction</div>
           <div class="right">
             <ul class="nav-items">
             <li><a href="">Home</a></li>
@@ -225,7 +225,7 @@ function numerology(refersh) {
  
  <body>
    <nav>
-     <div class="logo left">SunSignify</div>
+     <div class="logo left">Behaviour Pridiction</div>
      <div class="right">
        <ul class="nav-items">
        <li><a href="">Home</a></li>
@@ -289,7 +289,7 @@ function numerology(refersh) {
  
  <body>
    <nav>
-     <div class="logo left">SunSignify</div>
+     <div class="logo left">Behaviour Pridiction</div>
      <div class="right">
        <ul class="nav-items">
        <li><a href="">Home</a></li>
@@ -354,7 +354,7 @@ function numerology(refersh) {
  
  <body>
    <nav>
-     <div class="logo left">SunSignify</div>
+     <div class="logo left">Behaviour Pridiction</div>
      <div class="right">
        <ul class="nav-items">
        <li><a href="">Home</a></li>
@@ -425,7 +425,7 @@ function numerology(refersh) {
  
  <body>
    <nav>
-     <div class="logo left">SunSignify</div>
+     <div class="logo left">Behaviour Pridiction</div>
      <div class="right">
        <ul class="nav-items">
        <li><a href="">Home</a></li>
@@ -487,7 +487,7 @@ function numerology(refersh) {
  
  <body>
    <nav>
-     <div class="logo left">SunSignify</div>
+     <div class="logo left">Behaviour Pridiction</div>
      <div class="right">
        <ul class="nav-items">
          <li><a href="">Home</a></li>
@@ -562,7 +562,7 @@ function numerology(refersh) {
  
  <body>
    <nav>
-     <div class="logo left">SunSignify</div>
+     <div class="logo left">Behaviour Pridiction</div>
      <div class="right">
        <ul class="nav-items">
        <li><a href="">Home</a></li>
@@ -636,7 +636,7 @@ else if (numerology_number == 9) {
  
  <body>
    <nav>
-     <div class="logo left">SunSignify</div>
+     <div class="logo left">Behaviour Pridiction</div>
      <div class="right">
        <ul class="nav-items">
        <li><a href="">Home</a></li>
