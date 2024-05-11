@@ -1,6 +1,6 @@
 # Behaviour Predictor
 
-![how-to-use](https://github.com/adityaguptareal/behaviour-prediction/assets/78353347/50c026e1-8c67-4fc6-97d9-66db6c5055bd)
+![image](https://github.com/adityaguptareal/behaviour-prediction/assets/78353347/5e7c0d0f-1d7c-484a-8608-0bc0099c8631)
 
 
 Behaviour Predictor is a simple web app designed to predict behavior based on numerology calculations from the user's date of birth. It provides basic calculations derived from the user's date of birth to offer insights into their behavior traits. The app features a straightforward user interface, making it easy and accessible for anyone to use.
