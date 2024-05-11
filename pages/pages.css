@@ -1,0 +1,40 @@
+body{
+    color: white;
+
+}
+.page-heading{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 45px;
+}
+.container{
+    padding-top: 50px;
+    width: 80vw;
+    margin: auto;
+}
+.content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p a{
+color: white;
+}
+.start{
+    margin-top: 23px;
+}
+h2,h3,h4,h5{
+    margin: 20px 0px;
+
+}
+.list{
+    padding: 8px 0px;
+}
+.para-list li{
+    padding-bottom: 8px;
+}
+.para-list p{
+padding-bottom: 8px;
+}
+p{
+    padding-bottom: 15px;
+}
