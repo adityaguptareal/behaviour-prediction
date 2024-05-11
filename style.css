@@ -158,18 +158,20 @@ body {
   /* scale: 0.7; */
 }
 .love-emoji {
-  display: block;
-  position: absolute;
-  left: 258px;
-  top: 408px;
-  animation: grow 2s linear 0.2ms infinite alternate ;
+    display: block;
+    position: absolute;
+    left: 350px;
+    transform: rotate(325deg);
+    top: 497px;
+    animation: grow 2s linear 0.2ms infinite alternate;
+
 }
 @keyframes grow{
   from {
-    scale: 1;
+    scale: 0.8;
   }
   to {
-scale: 1.2;
+scale: 1;
   }
 }
 .lens-bottom {
