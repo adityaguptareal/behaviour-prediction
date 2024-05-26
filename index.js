@@ -695,3 +695,4 @@ function numerology(refersh) {
   }
 }
 document.getElementById("submit").addEventListener("click", numerology)
+
