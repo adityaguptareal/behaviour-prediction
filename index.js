@@ -51,7 +51,7 @@ function numerology(refersh) {
             <li><a href="">Home</a></li>
             <li><a href="">How to Use</a></li>
             <li><a href="">Blog</a></li>
-            <li><a href="">Privay Policy</a></li>
+            <li><a href="pages/Privacy-and-Policy.html">Privay Policy</a></li>
             <li><a href="">Terms & Condition</a></li>
             </ul>
           </div>
@@ -169,7 +169,7 @@ function numerology(refersh) {
             <li><a href="">Home</a></li>
             <li><a href="">How to Use</a></li>
             <li><a href="">Blog</a></li>
-            <li><a href="">Privay Policy</a></li>
+            <li><a href="pages/Privacy-and-Policy.html">Privay Policy</a></li>
             <li><a href="">Terms & Condition</a></li>
             </ul>
           </div>
@@ -238,7 +238,7 @@ function numerology(refersh) {
        <li><a href="">Home</a></li>
        <li><a href="">How to Use</a></li>
        <li><a href="">Blog</a></li>
-       <li><a href="">Privay Policy</a></li>
+       <li><a href="pages/Privacy-and-Policy.html">Privay Policy</a></li>
        <li><a href="">Terms & Condition</a></li>
        </ul>
      </div>
@@ -302,7 +302,7 @@ function numerology(refersh) {
        <li><a href="">Home</a></li>
        <li><a href="">How to Use</a></li>
        <li><a href="">Blog</a></li>
-       <li><a href="">Privay Policy</a></li>
+       <li><a href="pages/Privacy-and-Policy.html">Privay Policy</a></li>
        <li><a href="">Terms & Condition</a></li>
        </ul>
      </div>
@@ -367,7 +367,7 @@ function numerology(refersh) {
        <li><a href="">Home</a></li>
        <li><a href="">How to Use</a></li>
        <li><a href="">Blog</a></li>
-       <li><a href="">Privay Policy</a></li>
+       <li><a href="pages/Privacy-and-Policy.html">Privay Policy</a></li>
        <li><a href="">Terms & Condition</a></li>
        </ul>
      </div>
@@ -438,7 +438,7 @@ function numerology(refersh) {
        <li><a href="">Home</a></li>
        <li><a href="">How to Use</a></li>
        <li><a href="">Blog</a></li>
-       <li><a href="">Privay Policy</a></li>
+       <li><a href="pages/Privacy-and-Policy.html">Privay Policy</a></li>
        <li><a href="">Terms & Condition</a></li>
        </ul>
      </div>
@@ -500,7 +500,7 @@ function numerology(refersh) {
          <li><a href="">Home</a></li>
          <li><a href="">How to Use</a></li>
          <li><a href="">Blog</a></li>
-         <li><a href="">Privay Policy</a></li>
+         <li><a href="pages/Privacy-and-Policy.html">Privay Policy</a></li>
          <li><a href="">Terms & Condition</a></li>
        </ul>
      </div>
@@ -575,7 +575,7 @@ function numerology(refersh) {
        <li><a href="">Home</a></li>
        <li><a href="">How to Use</a></li>
        <li><a href="">Blog</a></li>
-       <li><a href="">Privay Policy</a></li>
+       <li><a href="pages/Privacy-and-Policy.html">Privay Policy</a></li>
        <li><a href="">Terms & Condition</a></li>
        </ul>
      </div>
